@@ -9,7 +9,7 @@ int main()
   char input;
   string item;
 
-do
+ do
  {
   cout<<"\n==GROCERY LIST MANAGER==";
   cout<<"\nEnter your choice: ";
@@ -34,6 +34,13 @@ do
    }
 
  }while(!(input=='q'||input=='Q'));
+
+ cout<<"==ITEMS TO BUY=="<<endl;
+ cout<<"1 "<<list[0]<<endl;
+ cout<<"2 "<<list[1]<<endl;
+ cout<<"3 "<<list[2]<<endl;
+ cout<<"4 "<<list[3]<<endl;
+ cout<<"5 "<<list[4]<<endl;
 
   return 0;
 }
